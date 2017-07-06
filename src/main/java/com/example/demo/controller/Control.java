@@ -14,6 +14,6 @@ public class Control {
     @GetMapping("/")
     public String getIndex(Model model){
         model.addAttribute("mesaj", "MEsah din controller");
-        return "indx";
+        return "index";
     }
 }
